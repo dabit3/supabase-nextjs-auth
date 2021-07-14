@@ -1,6 +1,6 @@
 import { supabase } from '../client'
 
-export default function Profile({ user }) {
+export default function Protected({ user }) {
   console.log({ user })
   return (
     <div style={{ maxWidth: '420px', margin: '96px auto' }}>

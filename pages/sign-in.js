@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 import { supabase } from '../client'
 
-export default function Home() {
+export default function SignIn() {
   const [email, setEmail] = useState('')
   const [submitted, setSubmitted] = useState(false)
   async function signIn() {
